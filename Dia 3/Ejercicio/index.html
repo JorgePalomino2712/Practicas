@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styleF.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Formulario para la noche de Hogar</h2>
+      <form id="">
+        <label for="nombre">Apellido de la Familia:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          required
+          placeholder="Ejm. Fam Palomino Sanchez"
+        />
+
+        <label for="cantidad">Cantidad de Miembros de la Familia:</label>
+        <input type="number" id="cantidad" name="cantidad" required />
+
+        <label for="Llamamiento">Llamamiento:</label>
+        <select name="" id="" required>
+          <option value="">Obispo</option>
+          <option value="">Pdte Quorum</option>
+          <option value="">Pdta Soc Soc</option>
+        </select>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" required />
+
+        <label for="hora">Hora:</label>
+        <input type="time" required />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

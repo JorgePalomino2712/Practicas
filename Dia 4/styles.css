@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Mejora el control de tamaños */
+}
+/* .divsito{
+    border: 2px solid red;
+}
+.spansito{
+    border: 2px green solid;
+    font-weight: bold;
+    color: red;
+}
+
+.sect{
+    border: 2px red solid;
+}
+ */
+ body{
+    height: 100vh;
+ }
+.cabecera{
+    background-color: red;
+    color: white;
+    height: 10%;
+}
+.nave{
+    background-color: blue;
+    color: white;
+    height: 10%;
+}
+.contenedor{
+    height: 70%;
+    display: flex;
+    
+}
+.aside{
+background-color: green;
+width: 25%;
+}
+.main{
+    background-color: chocolate;
+    width: 75%;
+}
+.pie{
+    background-color: blueviolet;
+    height: 10%;
+}
