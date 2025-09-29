@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-padre{
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    height: 200px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+.hijo{
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+.caja1{
+    order: 2;
+}
+.caja2{
+    order: 3;
+}
+.caja3{
+    order: 1;
+}

@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style:oblique blend;
+}
+
+body{
+    height: 126vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.header{
+    background-color: rgb(245, 183, 38);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    border: 2px solid black;
+}
+.main-container{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.caja-container{
+    
+height: 66%;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.caja1{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 49%;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.caja2{
+    background-color: rgb(33, 237, 227);
+    width: 100%;
+    height: 49%;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.caja3{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 33%;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 2px solid black;
+}
+
+.footer-container{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pie{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;   border: 2px solid black;
+    border: 1px solid black;
+}
+
+@media (min-width: 640px) {
+    body{
+        height: 100vh;
+    }
+    .header{
+       background-color: rgb(0, 255, 242);
+       justify-content: start;
+         padding-left: 20px;
+    }
+
+    .caja-container{
+        flex-direction: row;
+        height: 100%;
+             
+    }
+    .caja1{
+        height: 100%;
+        
+    }
+    .caja2{
+        height: 100%;
+        justify-content: end;
+        background-color: red;
+    }
+
+    .caja3{
+        background-color: rgb(0, 255, 110);
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    body{
+        height: 70vh;
+    }
+    .header{
+        background-color: rgb(5, 244, 29);
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        
+    }
+    .caja-container{
+        width: 66%;
+        gap: 15px;
+
+    }
+    .caja1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .caja2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .caja3{
+        background-color: red;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 100%;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        height: 6%;
+        gap: 13px;
+    }
+    .pie{
+        width: 50%;
+    }
+    .pie1{
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+    }
+    .pie2{
+        display: flex;
+        justify-content: start;
+        padding: 10px;
+    }
+}

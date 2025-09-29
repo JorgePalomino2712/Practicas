@@ -1,0 +1,45 @@
+/* XS 0px
+SM 640px 
+Md 768px
+Lg 1024px
+Xl 1280px
+2xl 1536px
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 640px) {
+    .caja{
+        background-color: blue;
+        width: 150px;
+        height: 150px;
+        color: white;
+    }
+}
+@media (min-width: 768px) {
+    .caja{
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        color: white;
+        
+    }
+}
